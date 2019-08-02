@@ -1,27 +1,27 @@
-# ts-npm-template
+# axios-plugin
 
-[![Build Status](https://travis-ci.org/MrHzq/ts-npm-template.svg?branch=master)](https://travis-ci.org/MrHzq/ts-npm-template) [![Coverage Status](https://coveralls.io/repos/github/MrHzq/ts-npm-template/badge.svg?branch=master)](https://coveralls.io/github/MrHzq/ts-npm-template?branch=master)
+[![Build Status](https://travis-ci.org/MrHzq/axios-plugin.svg?branch=master)](https://travis-ci.org/MrHzq/axios-plugin) [![Coverage Status](https://coveralls.io/repos/github/MrHzq/axios-plugin/badge.svg?branch=master)](https://coveralls.io/github/MrHzq/axios-plugin?branch=master)
 
 TypeScript 发布 Npm 包 模板
 
 ## 安装
 
 ```sh
- cnpm i ts-npm-template -S
+ cnpm i axios-plugin -S
 ```
 
 ```sh
- npm install ts-npm-template --save
+ npm install axios-plugin --save
 ```
 
 ```sh
- yarn add ts-npm-template
+ yarn add axios-plugin
 ```
 
 ## 使用
 
 ```javascript
-import { Tsadd } from 'ts-npm-template'
+import { Tsadd } from 'axios-plugin'
 
 console.log(Tsadd(100, 1000))
 ```

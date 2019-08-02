@@ -1,5 +1,5 @@
 {
-    "name": "ts-npm-template",
+    "name": "axios-plugin",
     "version": "1.0.9",
     "description": "TypeScript 发布 Npm 包 模板",
     "main": "dist/index.js",
@@ -11,19 +11,19 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/MrHzq/ts-npm-template.git"
+        "url": "git+https://github.com/MrHzq/axios-plugin.git"
     },
     "keywords": [
         "ts"
     ],
-    "readme": "使用手册https://github.com/MrHzq/ts-npm-template",
+    "readme": "使用手册https://github.com/MrHzq/axios-plugin",
     "readmeFilename": "README.md",
     "author": "hzq",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/MrHzq/ts-npm-template/issues"
+        "url": "https://github.com/MrHzq/axios-plugin/issues"
     },
-    "homepage": "https://github.com/MrHzq/ts-npm-template#readme",
+    "homepage": "https://github.com/MrHzq/axios-plugin#readme",
     "devDependencies": {
         "chai": "^4.2.0",
         "coveralls": "^3.0.5",
