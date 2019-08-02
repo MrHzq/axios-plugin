@@ -1,9 +1,10 @@
 'use strict'
 const expect = require('chai').expect
-const { Tsadd } = require('../dist/index.js')
+const service = require('../dist/service.js')
 
-describe('Tsadd', () => {
-    it('结果：200', () => {
-        expect(Tsadd(100, 100)).to.deep.equal(200)
+describe('service', () => {
+    it('结果：为对象', () => {
+        const r = service.default({ baseURL: 'www.baidu.con' })
+        expect(r).to.be.a('function')
     })
 })

@@ -1,1 +1,6 @@
-export declare const Tsadd: (a?: number, b?: number) => number;
+declare const _default: {
+    install(Vue: any, RC: any, config?: {
+        baseURL: string;
+    }): void;
+};
+export default _default;
