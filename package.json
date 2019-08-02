@@ -1,7 +1,7 @@
 {
     "name": "axios-plugin",
-    "version": "1.0.9",
-    "description": "TypeScript 发布 Npm 包 模板",
+    "version": "1.0.0",
+    "description": "axios-plugin",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
