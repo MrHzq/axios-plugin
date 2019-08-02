@@ -1,4 +1,4 @@
-# axios-plugin(https://github.com/MrHzq/axios-plugin)
+# [axios-plugin](https://github.com/MrHzq/axios-plugin)
 
 [![Build Status](https://travis-ci.org/MrHzq/axios-plugin.svg?branch=master)](https://travis-ci.org/MrHzq/axios-plugin) [![Coverage Status](https://coveralls.io/repos/github/MrHzq/axios-plugin/badge.svg?branch=master)](https://coveralls.io/github/MrHzq/axios-plugin?branch=master)
 
@@ -10,19 +10,19 @@
 
 ### 在 Vue 中使用
 
-1. 请确保已安装`axios`，否则安装
+请确保已安装`axios`，否则安装
 
 ```sh
 npm i axios -S
 ```
 
-2. 安装 `axios-plugin`
+安装 `axios-plugin`
 
 ```sh
 npm i axios-plugin -S
 ```
 
-3. `main.js`引入和使用
+`main.js`引入和使用
 
 ```javascript
 import AxiosPlugin from 'axios-plugin'
@@ -57,9 +57,9 @@ export default [
 ]
 ```
 
-name：方法名称（`请保持唯一性`），这样写，就在`.vue`里面这样使用：`this.$api.login()`<br>
-url：请求地址，请根据 swagger 上面的来，不再需要加前缀了，如'/sib/'，因为自动处理了<br>
-methods：请求方式，没有该属性时，默认为 post
+> name：方法名称（`请保持唯一性`），这样写，就在`.vue`里面这样使用：`this.$api.login()`<br>
+> url：请求地址，请根据 swagger 上面的来，不再需要加前缀了，如'/sib/'，因为自动处理了<br>
+> methods：请求方式，没有该属性时，默认为 post
 
 #### config：axios 自定义配置 Object
 
@@ -67,9 +67,10 @@ methods：请求方式，没有该属性时，默认为 post
 {
     baseURL: '',// 服务器接口地址：必传
     createConfig: {},// axios.create()方法参数：可选、默认({
-        baseURL,
-        headers: { 'Content-Type': 'application/json; charset=UTF-8' }
-    })
+    //     baseURL,
+    //     timeout: 15000,
+    //     headers: { 'Content-Type': 'application/json; charset=UTF-8' }
+    // })
     beforeRequest(config) {
         // 请求拦截器：可选、无默认；使用了话，必须要在末尾加上：return config
         return config
